@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Slider Goods</title>
+</head>
+<body>
+  
+  <div class="container">
+    <div class="goods-inner">
+      <div class="goods-inner__item">
+        <div class="goods-inner__left">
+          <div class="goods-img-max">
+            <img id="goods-max" src="img/1.png" alt="img">
+          </div>
+          <div class="goods-img-min">
+            <div><img src="img/2.png" alt="image"></div>
+            <div><img src="img/3.png" alt="image"></div>
+            <div class="active"><img src="img/4.png" alt="image"></div>
+          </div>
+        </div>
+      </div>
+      <div class="goods-inner__item">
+        <div class="goods-inner__right">
+          <div class="single-goods-card">
+            <h1>Lorem ipsum dolor</h1>
+            <p class="min-description">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt, iusto!
+            </p>
+            <p class="full-discription">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+              Voluptas quis ea explicabo aliquid recusandae, 
+              dolore et quam saepe perspiciatis iure.
+            </p>
+            <div class="choose-size">
+              Choose size:
+              <span class="size">s</span>
+              <span class="size">m</span>
+              <span class="size active">L</span>
+              <span class="size">xl</span>              
+            </div>
+            <div class="right">
+              Choose quantity:
+              <button>+</button>
+              <span class="active">3</span>
+              <button>-</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+@import url("./reset.css");
+
+body {
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+  color: #323232;
+}
+
+.goods-inner__left {
+  /* border: 3px solid rgba(0,0,0, .25); */
+  border-radius: 4px;
+  min-width: 280px;
+  max-width: 512px;
+  margin: 15px;
+  padding: 15px;
+  position: relative;
+  box-shadow: 0px 10px 20px 1px rgba(0,0,0, .15);
+}
+.goods-img-max {
+  margin: 15px;
+}
+.goods-img-max img {
+  margin: 0 auto;
+
+}
+.goods-img-min {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+
+}
+.goods-img-min div {
+  border-radius: 2px;
+  border: 2px solid rgba(0,0,0, .2);
+  margin: 0 5px;
+}
+
+.goods-img-min div.active {
+ border: 2px solid rgba(255,79,0, .5);
+}
+
+.goods-img-min div img {
+  width: 50%;
+  margin: 0 auto;
+}
