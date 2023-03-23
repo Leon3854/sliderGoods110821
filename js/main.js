@@ -14,13 +14,14 @@
 
 document.body.onclick = function(event) {
   event = event || window.event;
+
   if (event.target.classList.contains('goods-min')) {
-    // console.log(true);
     const allDivs = document.querySelectorAll('.goods-img-min div');
-    for (var i = 0; i < allDivs.length; i++) {
+    // console.log(allDivs);
+    for(var i = 0; i < allDivs.length; i++) {
       allDivs[i].classList.remove('active');
     }
     document.getElementById('goods-max').src = event.target.src;
     event.target.parentElement.classList.add('active');
-  } 
+  }
 }
